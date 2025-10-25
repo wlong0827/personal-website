@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "will-long-personal-website",
+  "description": "Will Long's Personal Website - Founder & CEO of Numinar Analytics",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Will Long <will@numinar.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/wlong0827/personal-website"
   },
   "keywords": [
     "gatsby"

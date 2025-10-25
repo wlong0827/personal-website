@@ -1,13 +1,15 @@
 ---
-date: '2018-12-18'
-title: 'Spotify Profile'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+date: '2018-05-15'
+title: 'Pluralize'
+github: 'https://github.com/wlong0827/pluralize'
+external: 'https://wlong0827.github.io/pluralize/'
 tech:
-  - React
-  - Express
-  - Styled Components
-showInProjects: false
+  - JavaScript
+  - Chrome Extension
+  - Facebook Graph API
+  - D3.js
+  - jQuery
+showInProjects: true
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+A Chrome extension that analyzes exposure to religious diversity by scraping and analyzing Facebook data. Pluralize helps people become aware of religions in their social vicinity and suggests ways to help them learn about faith through data visualization and analytics.

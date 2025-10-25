@@ -125,7 +125,14 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'Machine Learning',
+    'React',
+    'PostgreSQL',
+    'AWS',
+    'Political Technology',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +142,35 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Will and I'm passionate about using technology to solve complex
+              problems in politics and society. My interest in political technology started during
+              my senior year at Harvard when I founded Numinar Analytics in my dorm room.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Today, I'm the Founder and CEO of{' '}
+              <a href="https://www.numinar.com/">Numinar Analytics</a>, a political technology
+              startup that combines voter data and machine learning to help campaigns win elections.
+              Since its founding, Numinar has been deployed on over 2,000 political campaigns and
+              helped reach over 100 million voters.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Before Numinar, I spent time in Silicon Valley at{' '}
+              <a href="https://www.amazon.com/">Amazon</a> and{' '}
+              <a href="https://www.palantir.com/">Palantir</a>. I earned a Joint A.B. in Computer
+              Science and Government from Harvard College, where I wrote my senior thesis on the
+              application of Thomas Hobbes's political philosophy to problems of cooperation in
+              Artificial Intelligence.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>
+              In my spare time, I enjoy discussing philosophy at the{' '}
+              <a href="https://cicero-society.org/">Cicero Society</a>, a debate society I founded
+              in Washington, DC, where I live with my wife Elly.
+            </p>
+
+            <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">
