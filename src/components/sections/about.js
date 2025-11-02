@@ -125,14 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = [
-    'Python',
-    'Machine Learning',
-    'React',
-    'PostgreSQL',
-    'AWS',
-    'Political Technology',
-  ];
+  const skills = ['Python', 'Typescript', 'React Native', 'PostgreSQL', 'AWS', 'Databricks'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -144,15 +137,7 @@ const About = () => {
             <p>
               Hello! My name is Will and I'm passionate about using technology to solve complex
               problems in politics and society. My interest in political technology started during
-              my senior year at Harvard when I founded Numinar Analytics in my dorm room.
-            </p>
-
-            <p>
-              Today, I'm the Founder and CEO of{' '}
-              <a href="https://www.numinar.com/">Numinar Analytics</a>, a political technology
-              startup that combines voter data and machine learning to help campaigns win elections.
-              Since its founding, Numinar has been deployed on over 2,000 political campaigns and
-              helped reach over 100 million voters.
+              my senior year at Harvard when I founded Numinar in my dorm room.
             </p>
 
             <p>
@@ -166,8 +151,8 @@ const About = () => {
 
             <p>
               In my spare time, I enjoy discussing philosophy at the{' '}
-              <a href="https://cicero-society.org/">Cicero Society</a>, a debate society I founded
-              in Washington, DC, where I live with my wife Elly.
+              <a href="https://cicerosociety.org/">Cicero Society</a>, a debate society I founded in
+              Washington, DC, where I live with my wife Elly.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
@@ -185,7 +170,7 @@ const About = () => {
               src="../../images/me.jpg"
               width={500}
               quality={95}
-              formats={['AUTO', 'WEBP', 'AVIF']}
+              formats={['AUTO', 'WEBP']}
               alt="Headshot"
             />
           </div>

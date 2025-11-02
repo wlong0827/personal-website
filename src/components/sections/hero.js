@@ -67,7 +67,7 @@ const Hero = () => {
       <p>
         I'm the Founder and CEO of{' '}
         <a href="https://www.numinar.com/" target="_blank" rel="noreferrer">
-          Numinar Analytics
+          Numinar
         </a>
         , a political technology startup combining voter data and machine learning to help campaigns
         win elections. Since its founding, Numinar has been deployed on over 2,000 political
@@ -76,7 +76,7 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a className="email-link" href="mailto:will@numinar.com" target="_blank" rel="noreferrer">
+    <a className="email-link" href="mailto:will@wlong.io" target="_blank" rel="noreferrer">
       Get In Touch
     </a>
   );

@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'will@numinar.com',
+  email: 'will@wlong.io',
 
   socialMedia: [
     {

@@ -1,9 +1,9 @@
 ---
 date: '2020-06-01'
 title: 'Founder & CEO'
-company: 'Numinar Analytics'
+company: 'Numinar'
 location: 'Washington, DC'
-range: 'June 2020 - Present'
+range: 'June 2019 - Present'
 url: 'https://www.numinar.com/'
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: '2018-03-15'
-title: 'Rudy - Hydraulic Fracturing Chatbot'
+title: 'Hydraulic Fracturing Chatbot'
 github: 'https://github.com/wlong0827/Rudy'
 external: 'https://github.com/wlong0827/Rudy'
 tech:

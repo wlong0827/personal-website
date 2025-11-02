@@ -62,8 +62,8 @@ const Contact = () => {
       <p>
         I'm always interested in discussing political technology, machine learning applications in
         politics, or philosophical questions about AI and society. Whether you have a question about
-        Numinar, want to discuss the Cicero Society, or just want to say hi, I'll try my best to get
-        back to you!
+        Numinar, want to discuss the Cicero Society, or just want to say hello, I'll try my best to
+        get back to you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
