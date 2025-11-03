@@ -1,0 +1,60 @@
+# Netlify configuration file
+# This file tells Netlify how to build and deploy your site
+
+[build]
+  command = "npm run build --legacy-peer-deps"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_FLAGS = "--legacy-peer-deps"
+
+# Force HTTPS - redirect all HTTP traffic to HTTPS
+[[redirects]]
+  from = "http://wlong.io/*"
+  to = "https://wlong.io/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.wlong.io/*"
+  to = "https://www.wlong.io/:splat"
+  status = 301
+  force = true
+
+# Redirect all 404s to index.html (for client-side routing)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Security headers for SEO and security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# Cache static assets
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache images
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+

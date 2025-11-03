@@ -5,7 +5,7 @@ module.exports = {
     title: 'Will Long',
     description:
       'Will Long is the Founder and CEO of Numinar Analytics, a political technology startup combining voter data and machine learning to help campaigns win elections.',
-    siteUrl: 'https://wlong0827.github.io/personal-website', // No trailing slash allowed!
+    siteUrl: 'https://wlong.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@wlong0827',
   },
@@ -16,7 +16,14 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://wlong.io',
+        sitemap: 'https://wlong.io/sitemap/sitemap-index.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
